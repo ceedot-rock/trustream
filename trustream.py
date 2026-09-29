@@ -134,6 +134,8 @@ def tile_ops(stream: bytes):
             pay = 2
         elif tag == TAG_STORE:
             pay = tile_len
+        elif tag == TAG_PHRASE:
+            raise NotImplementedError("PHRASE op reserved")
         else:
             raise ValueError("unknown tag 0x%02x" % tag)
         ops.append((tag, tile_len, _FRAME_HDR.size + pay))

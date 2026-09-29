@@ -11,7 +11,6 @@ from __future__ import annotations
 
 import hashlib
 import random
-import struct
 import sys
 import os
 
