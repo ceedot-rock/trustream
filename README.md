@@ -1,5 +1,11 @@
 # trustream
 
+[![Audited checks](https://github.com/ceedot-rock/trustream/actions/workflows/audited-checks.yml/badge.svg)](https://github.com/ceedot-rock/trustream/actions/workflows/audited-checks.yml)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+
+TRUSTREAM is dual-licensed AGPL-3.0-or-later OR the Slid Phi Labs Commercial
+License (see [LICENSE](LICENSE)).
+
 ## What TRUSTREAM is
 
 TRUSTREAM is compression for live data streams instead of files. Logs, traces, and telemetry flow through it in small 4 KB tiles as they arrive. Quiet stretches — the long runs of zeros and repetition that fill most logs — pack down small. Busy stretches pass through untouched, so the stream stays honest. Playback gives you the original bytes, in order.
