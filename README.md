@@ -1,3 +1,7 @@
+> **This repo has moved into the verse.** Development continues at
+> [ceedot-rock/PCCVerse](https://github.com/ceedot-rock/PCCVerse), in folder trustream/.
+> This copy is archived and read-only - history preserved, nothing lost.
+
 # trustream
 
 [![Audited checks](https://github.com/ceedot-rock/trustream/actions/workflows/audited-checks.yml/badge.svg)](https://github.com/ceedot-rock/trustream/actions/workflows/audited-checks.yml)
